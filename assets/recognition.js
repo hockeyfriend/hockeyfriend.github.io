@@ -7,7 +7,7 @@ let oldTip = false;
 let oldTipPos = null;
 
 function clearing(){
-  drawing.clear();
+  drawing.clearRect(0, 0, drawingCanvas.width, drawingCanvas.height);
 }
 
 function onResults(results) {
