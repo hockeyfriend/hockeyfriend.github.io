@@ -2,3 +2,7 @@
     display: flex;
     flex-wrap: nowrap | wrap | wrap-reverse;
 }
+#clear{
+    margin: 0 auto;
+    display: block;
+}
