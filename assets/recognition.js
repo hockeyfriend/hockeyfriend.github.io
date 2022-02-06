@@ -6,6 +6,10 @@ const drawing = drawingCanvas.getContext('2d');
 let oldTip = false;
 let oldTipPos = null;
 
+function clearing(){
+  drawing.clear();
+}
+
 function onResults(results) {
   canvasCtx.save();
   canvasCtx.clearRect(0, 0, canvasElement.width, canvasElement.height);
@@ -47,6 +51,7 @@ function onResults(results) {
 const hands = new Hands({locateFile: (file) => {
   return `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`;
 }});
+
 hands.setOptions({
   maxNumHands: 1,
   modelComplexity: 1,
