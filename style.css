@@ -1,4 +1,11 @@
 .mainframe {
+    /* center game field */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* flex child container to achieve 3x3 field */
     display: flex;
     flex-wrap: wrap;
     width: 120px;
