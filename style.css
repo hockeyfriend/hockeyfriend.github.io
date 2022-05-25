@@ -1,14 +1,9 @@
-.container {
+.mainframe {
     display: flex;
     flex-wrap: nowrap | wrap | wrap-reverse;
 }
-#clear{
-    margin: 0 auto;
-    display: block;
-}
-.box {
-    overflow: hidden;
-    border-radius: 30px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.5);
-    margin: 10px;
+.field{
+    border: 1px #000000;
+    width: 40px;
+    height: 40px;
 }
