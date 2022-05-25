@@ -1,8 +1,10 @@
 .mainframe {
     display: flex;
-    flex-wrap: nowrap | wrap | wrap-reverse;
+    width: 120px;
+    height: 120px;
 }
 .field{
+    border-style: solid;
     border: 1px #000000;
     width: 40px;
     height: 40px;
