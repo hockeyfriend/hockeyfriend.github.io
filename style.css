@@ -1,5 +1,5 @@
 .mainframe {
-    display: flex;
+    display: flexbox;
     width: 120px;
     height: 120px;
 }
