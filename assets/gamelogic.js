@@ -1,10 +1,5 @@
-/*
-$( '.field' ).on('Click', setCross);
-*/
-/* Test paste */
-const field = document.querySelector(".field");
-
-field.addEventListener("click", setCross);
+/* Set a Cross when a field get clicked */
+$( '.field' ).on('click', setCross);
 
 function setCross(event){
   var actField = event.target;
