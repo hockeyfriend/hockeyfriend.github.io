@@ -76,7 +76,7 @@ function showArray(array){
     }
   }
 }
-
+/*
 showArray(
 [
   -1, null, null,
@@ -84,3 +84,4 @@ showArray(
   null, null, null
 ]
 );
+*/
